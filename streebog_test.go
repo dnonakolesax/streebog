@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ChainsAre2Tight/streebog"
-	"github.com/ChainsAre2Tight/streebog/pkg/testdata"
+	"github.com/dnonakolesax/streebog"
+	"github.com/dnonakolesax/streebog/pkg/testdata"
 )
 
 func TestStreebog(t *testing.T) {

@@ -1,6 +1,6 @@
 package primitives
 
-import "github.com/ChainsAre2Tight/streebog/pkg/tables"
+import "github.com/dnonakolesax/streebog/pkg/tables"
 
 func L(dst []uint64) {
 	for i := range 8 {

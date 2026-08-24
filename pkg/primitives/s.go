@@ -3,7 +3,7 @@ package primitives
 import (
 	"fmt"
 
-	"github.com/ChainsAre2Tight/streebog/pkg/tables"
+	"github.com/dnonakolesax/streebog/pkg/tables"
 )
 
 func S(dst []uint64) {

@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/ChainsAre2Tight/streebog"
+	"github.com/dnonakolesax/streebog"
 )
 
 func main() {

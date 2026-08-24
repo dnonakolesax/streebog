@@ -5,9 +5,9 @@ import (
 	"hash"
 	"slices"
 
-	"github.com/ChainsAre2Tight/streebog/pkg/constants"
-	"github.com/ChainsAre2Tight/streebog/pkg/round"
-	"github.com/ChainsAre2Tight/streebog/pkg/utils"
+	"github.com/dnonakolesax/streebog/pkg/constants"
+	"github.com/dnonakolesax/streebog/pkg/round"
+	"github.com/dnonakolesax/streebog/pkg/utils"
 )
 
 var _ hash.Hash = (*streebog)(nil)

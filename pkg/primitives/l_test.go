@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ChainsAre2Tight/streebog/pkg/primitives"
-	"github.com/ChainsAre2Tight/streebog/pkg/testdata"
+	"github.com/dnonakolesax/streebog/pkg/primitives"
+	"github.com/dnonakolesax/streebog/pkg/testdata"
 )
 
 func TestL(t *testing.T) {

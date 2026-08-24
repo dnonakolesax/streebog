@@ -5,9 +5,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ChainsAre2Tight/streebog/pkg/constants"
-	"github.com/ChainsAre2Tight/streebog/pkg/primitives"
-	"github.com/ChainsAre2Tight/streebog/pkg/testdata"
+	"github.com/dnonakolesax/streebog/pkg/constants"
+	"github.com/dnonakolesax/streebog/pkg/primitives"
+	"github.com/dnonakolesax/streebog/pkg/testdata"
 )
 
 func TestX(t *testing.T) {

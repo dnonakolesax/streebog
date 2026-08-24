@@ -2,8 +2,6 @@ package primitives
 
 import (
 	"fmt"
-
-	"github.com/viant/vec/bitwise"
 )
 
 func X(dst, target []uint64) {
@@ -11,5 +9,9 @@ func X(dst, target []uint64) {
 		panic(fmt.Errorf("primitives.X: unexpected slice lengths: %d, %d expected: 8", len(dst), len(target)))
 	}
 
-	bitwise.Uint64s(dst).XorAVX2(dst, target)
+	// The compiler can optimize this fixed-size loop where supported,
+	// while CPUs without AVX2 can safely execute it as well.
+	for i := range dst {
+		dst[i] ^= target[i]
+	}
 }

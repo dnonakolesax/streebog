@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ChainsAre2Tight/streebog/pkg/round"
-	"github.com/ChainsAre2Tight/streebog/pkg/testdata"
+	"github.com/dnonakolesax/streebog/pkg/round"
+	"github.com/dnonakolesax/streebog/pkg/testdata"
 )
 
 func TestRoundFunction(t *testing.T) {

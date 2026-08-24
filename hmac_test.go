@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ChainsAre2Tight/streebog"
+	"github.com/dnonakolesax/streebog"
 )
 
 func TestHMAC256(t *testing.T) {

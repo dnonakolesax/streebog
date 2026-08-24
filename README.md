@@ -5,7 +5,7 @@
 ## Установка
 
 ```bash
-go get github.com/ChainsAre2Tight/streebog
+go get github.com/dnonakolesax/streebog
 ```
 
 ## Пример использования 
@@ -18,7 +18,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/ChainsAre2Tight/streebog"
+	"github.com/dnonakolesax/streebog"
 )
 
 func main() {
@@ -39,7 +39,7 @@ import (
 	"fmt"
 	"hash"
 
-	"github.com/ChainsAre2Tight/streebog"
+	"github.com/dnonakolesax/streebog"
 )
 
 func main() {

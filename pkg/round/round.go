@@ -1,8 +1,8 @@
 package round
 
 import (
-	"github.com/ChainsAre2Tight/streebog/pkg/constants"
-	"github.com/ChainsAre2Tight/streebog/pkg/primitives"
+	"github.com/dnonakolesax/streebog/pkg/constants"
+	"github.com/dnonakolesax/streebog/pkg/primitives"
 )
 
 // writes all to h

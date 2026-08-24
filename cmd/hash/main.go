@@ -7,7 +7,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/ChainsAre2Tight/streebog"
+	"github.com/dnonakolesax/streebog"
 )
 
 func main() {
